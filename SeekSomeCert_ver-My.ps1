@@ -37,7 +37,6 @@ Function FindCert
     Return $FindCertArray
 }
 
-
 for ($i=0; $i -lt $CertSeekPatch.count; $i++)
 {
     sl "Cert:\"+$CertSeekPatch[$i]+"`\My"
